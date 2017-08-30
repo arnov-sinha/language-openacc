@@ -1,0 +1,19 @@
+{
+  "name": "language-openacc",
+  "main": "./lib/language-openacc",
+  "version": "0.0.0",
+  "description": "Syntax highlighting for OpenACC in atom",
+  "keywords": ["grammar", "OpenACC", "GPU"
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-openacc:toggle"
+  },
+  "repository": "https://github.com/arnov-sinha/language-openacc",
+  "bugs": "https://github.com/arnov-sinha/language-openacc/issues",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

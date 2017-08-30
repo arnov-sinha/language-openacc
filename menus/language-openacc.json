@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-openacc",
+        "command": "language-openacc:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-openacc",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-openacc:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
