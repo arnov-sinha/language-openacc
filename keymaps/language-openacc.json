@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "language-openacc:toggle"
+    "ctrl-shift-a": "language-openacc:toggle"
   }
 }

@@ -1,0 +1,15 @@
+'scopeName': 'source.c'
+'comment': 'OpenACC rules for C.'
+'name': 'OpenACC-C'
+'fileTypes': ['.c']
+'patterns':[
+  {
+    'name': 'meta.openacc.directive'
+    'begin':'\W\w+\sacc\s\w+'
+    
+
+  },
+  {
+
+  }
+]
