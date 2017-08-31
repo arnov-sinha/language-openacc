@@ -1,9 +1,12 @@
 {
   "name": "language-openacc",
   "main": "./lib/language-openacc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Syntax highlighting for OpenACC in atom",
-  "keywords": ["grammar", "OpenACC", "GPU"
+  "keywords": [
+    "grammar",
+    "OpenACC",
+    "GPU"
   ],
   "activationCommands": {
     "atom-workspace": "language-openacc:toggle"
@@ -14,6 +17,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
