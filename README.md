@@ -1,5 +1,7 @@
 # language-openacc package
 
+Feel free to fork and send me pull requests to help me update the grammar rules quickly :)
+
 Update September, 2017 : Still working on the regex to improve the syntax highlighting.
 
 Future Releases:

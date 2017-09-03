@@ -3,7 +3,22 @@
 'name': 'OpenACC-C'
 'fileTypes': ['.c', '.h.in']
 'injectionSelector': 'source.c, comment'
+'firstLineMatch': '(?i)-\\*-[^*]*(Mode:\\s*)?C(\\s*;.*?)?\\s*-\\*-'
+    #grammar rules for C codes only if the pattern defined here matches.
 
+'patterns':[
+  {
+    'name': 'meta.directive.openacc'
+    'match':'(\\W\\w+\\sacc)\\s+(\\w+)'
+    'captures':
+      '1':
+        'name': 'keyword.control.openacc'
+      '2':
+        'name': 'type.clause.openacc'
+  }
+]
+'repository':
+  
   'comments':
     'patterns': [
       {
@@ -58,19 +73,7 @@
         ]
       }
     ]
-    
-'patterns':[
-  {
-    'name': 'meta.directive.openacc'
-    'match':'(\\W\\w+\\sacc)\\s+(\\w+)'
-    'captures':
-      '1':
-        'name': 'keyword.control.openacc'
-      '2':
-        'name': 'type.clause.openacc'
-  }
-]
-'repository':
+
   'clauses':
     'patterns':[
       {
