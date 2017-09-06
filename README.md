@@ -8,7 +8,7 @@ Update September, 2017 : Still working on the regex to improve the syntax highli
 
 Future Releases:
 
-- Better syntax highlighting
+- Better syntax highlighting and check for correct usage of directives
 - Connection to PGI and GCC compiler to have native support for OpenACC directives and APIs within Atom itself
 - Profiling support within Atom
 
