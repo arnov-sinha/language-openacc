@@ -1,7 +1,7 @@
 {
   "name": "language-openacc",
   "main": "./lib/language-openacc",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Syntax highlighting for OpenACC in atom",
   "keywords": [
     "grammar",
