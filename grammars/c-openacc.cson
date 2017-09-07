@@ -72,6 +72,9 @@
           }
         ]
       }
+      {
+        'include': 'source.c'
+      }
     ]
 
   'clauses':
