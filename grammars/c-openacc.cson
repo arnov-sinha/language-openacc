@@ -9,7 +9,7 @@
 'patterns':[
   {
     'name': 'meta.directive.openacc'
-    'match':'(^\\s*\\W\\w+\\somp)\\s(\\w+)'
+    'match':'(^\\s*\\W\\w+\\sacc)\\s(\\w+)'
     'captures':
       '1':
         'name': 'keyword.control.openacc'
